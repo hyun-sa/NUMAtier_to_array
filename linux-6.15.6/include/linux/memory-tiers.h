@@ -34,6 +34,7 @@ struct memory_dev_type {
 };
 
 struct access_coordinate;
+extern int* node_to_tier;
 
 #ifdef CONFIG_NUMA
 extern bool numa_demotion_enabled;
